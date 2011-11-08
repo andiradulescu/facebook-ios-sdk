@@ -1,9 +1,11 @@
-Important Notice on Issue Reporting
-===============
+IMPORTANT
+=========
 
-We will no longer be supporting issue reporting on GitHub. Bugs will be handled via our [bug tracking tool](https://developers.facebook.com/bugs/) and any technical questions via [Stack Overflow](http://facebook.stackoverflow.com/).
+This is a fork of facebook-ios-sdk.
 
-If you have reported issues on GitHub, please re-post any active ones to the relevant forum.
+The original facebook-ios-sdk can be found [here](https://github.com/facebook/facebook-ios-sdk).
+
+I created this fork in order to make facebook-ios-sdk work with the latest [SBJson](https://github.com/stig/json-framework) and [gdata-objectivec-client](http://code.google.com/p/gdata-objectivec-client/).
 
 
 Facebook iOS SDK
