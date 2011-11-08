@@ -1,4 +1,4 @@
-IMPORTANT
+Important
 =========
 
 This is a fork of facebook-ios-sdk.
@@ -7,6 +7,11 @@ The original facebook-ios-sdk can be found [here](https://github.com/facebook/fa
 
 I created this fork in order to make facebook-ios-sdk work with the latest [SBJson](https://github.com/stig/json-framework) and [gdata-objectivec-client](http://code.google.com/p/gdata-objectivec-client/).
 
+This could prove useful to you if you tried to use both the facebook-ios-sdk and gdata-objectivec-client. Both projects have an implementation of SBJson inside, and you get a "duplicate symbol" when you try to build the project.
+
+The solution is the removal of SBJson files from both facebook-ios-sdk and gdata-objectivec-client and the addition of the latest SBJson library.
+
+Common error: "ld: duplicate symbol _OBJC_METACLASS_$_SBJSON in ..." 
 
 Facebook iOS SDK
 ===========================
