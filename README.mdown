@@ -1,4 +1,4 @@
-Important
+DEPRECATED
 =========
 
 This is a fork of facebook-ios-sdk.
